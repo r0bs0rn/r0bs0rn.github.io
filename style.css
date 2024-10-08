@@ -1,0 +1,59 @@
+    @import url('https://fonts.cdnfonts.com/css/century-gothic-paneuropean');
+    @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&amp;display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&amp;display=swap');
+    body {
+      margin: 0;
+      font-family: "Merriweather", Georgia, serif;
+      font-size: 22px;
+      color: #ffffff;
+	  background-image: url("background.gif");
+	    height: 100%; 
+	    background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+    ::selection {
+      background-color: #00ffff;
+      color: #000000;
+    }
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #bg {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    } 
+    .wrapper {
+      max-width: 700px;
+      padding: 48px;
+    }
+    .hero {
+      font-family: "Century Gothic Paneuropean", Georgia, serif;
+      font-size: 50px;
+      margin: 0;
+    }
+    .url-wrapper {
+      display: flex;
+      margin: 0 auto;
+    }
+    .url-container {
+      margin-right: 50px;
+    }
+    .list-entry {
+      font-family: "Fira Code", monospace;
+      font-size: 18px;
+      margin: 10px 0;
+    }
+    .list-pointer {
+      opacity: 0.5;
+    }
+    .contact {
+      font-size: 20px;
+    }
